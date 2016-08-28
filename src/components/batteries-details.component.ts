@@ -3,7 +3,7 @@ import { Battery } from './battery';
 
 @Component({
   selector: 'battery-details',
-  template: '<div *ngIf="battery"><h2>{{battery.cdBattery}} details!</h2></div>'
+  templateUrl: 'src/templates/battery-details.template.html',
 })
 
 export class BatteryDetailsComponent{
